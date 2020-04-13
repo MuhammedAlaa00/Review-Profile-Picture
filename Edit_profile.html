@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/webfonts/all.min.css" />
+    <link href="style/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <div class="container">
+        <div class="form_main_body res_main_body">
+          <div class="text-center avatar_main">
+            <img src="images/client-icon-png-18.jpg" id="profile-img-tag" "
+            alt="image" class="rounded-circle" style="background-color: #CAC8C7;
+            width: 150px;">
+            <div class="icon">
+              <button id="grap_file">
+                <i class="fas fa-camera"></i>
+              </button>
+              <input type="file" class="d-none" id="file_grap" />
+            </div>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">الاسم</label>
+              <input
+                type="email"
+                placeholder="enter your name"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                onfocus="HidePlaceHolder(this, event);"
+                onblur="HidePlaceHolder(this, event);"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">البريد الالكتروني</label>
+              <input
+                type="email"
+                placeholder="enter your email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                onfocus="HidePlaceHolder(this, event);"
+                onblur="HidePlaceHolder(this, event);"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">العنوان</label>
+              <input
+                type="email"
+                placeholder="enter your address"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                onfocus="HidePlaceHolder(this, event);"
+                onblur="HidePlaceHolder(this, event);"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">رقم الهاتف</label>
+              <input
+                type="email"
+                placeholder="enter your phone number"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                onfocus="HidePlaceHolder(this, event);"
+                onblur="HidePlaceHolder(this, event);"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">الرقم السري</label>
+              <input
+                type="password"
+                placeholder="enter your password"
+                class="form-control"
+                id="exampleInputPassword1"
+                onfocus="HidePlaceHolder(this, event);"
+                onblur="HidePlaceHolder(this, event);"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">الفيس بوك</label>
+              <input
+                type="email"
+                placeholder="enter your facebook account"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                onfocus="HidePlaceHolder(this, event);"
+                onblur="HidePlaceHolder(this, event);"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">الانستاجرام</label>
+              <input
+                type="email"
+                placeholder="enter your instagram account"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                onfocus="HidePlaceHolder(this, event);"
+                onblur="HidePlaceHolder(this, event);"
+              />
+            </div>
+            <div class="text-center mt-2 btns">
+              <a href="#" class="btn">Submit</a>
+              <h2 class="h2h" style="color: #fff;"></h2>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="Js/jquery-3.4.1.min.js"></script>
+    <script src="Js/popper.min.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="Js/main.js"></script>
+
+    <!--
+    <script>
+      var reader = new FileReader();
+
+      
+      reader.readAsDataURL(fileUpload.files[0]);
+      reader.onload = function(e) {
+       
+        var image = new Image();
+
+       
+        image.src = e.target.result;
+
+       
+        image.onload = function() {
+          var height = this.height;
+          var width = this.width;
+          if (height > 100 || width > 100) {
+            alert("Height and Width must not exceed 100px.");
+            return false;
+          }
+          alert("Uploaded image has valid Height and Width.");
+          return true;
+        };
+      };
+    </script>
+    -->
+  </body>
+</html>

@@ -1,0 +1,104 @@
+body
+{
+    background-color: rgb(0,52,82);
+}
+.form_main_body
+{
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.24);
+    padding: 20px;
+    margin-top: 17px;
+}
+.form_main_body .form-group
+{
+    margin-bottom: 0.5rem;
+}
+.form_main_body .form-group label, span
+{
+    color: #fff;
+}
+.form_main_body .form-group .form-control
+{
+    background-color: #CAC8C7;
+    height: calc(1.80rem + 2px);
+}
+.profile .small-contain
+{
+    background-color: rgba(0, 0, 0, 0.30980392156862746);
+    border-radius: 10px;
+}
+.small-contain .content
+{
+    padding-bottom: 50px;
+
+}
+.profile .head h2 
+{
+    color: #fff;
+}
+.profile hr
+{
+    margin-top: 20px;
+    color: #000;
+    border: 0.6px solid;
+    width: 70%;
+}
+.profile .image-container .icons i
+{
+    color: #CAC8C7;
+    margin: 10px;
+    font-size: 18px;
+}
+.form_main_body .btns a,
+.profile .data .btns a
+{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(132,88,50,1) 0%, rgba(217,182,98,1) 60%, rgba(132,88,50,1) 100%);
+    border: none;
+    outline: none;
+}
+/*---------------------------------------------------------------------*/
+.avatar_main
+{
+    position: relative;
+}
+.avatar_main .icon
+{
+    position: absolute;
+    top: 70%;
+    left: 46.5%;
+    font-size: 25px;
+}
+.avatar_main .icon button
+{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.avatar_main .icon i
+{
+    color: #000;
+}
+@media (min-width: 1200px) 
+{
+    .res_main_body
+    {
+        width: 50%;
+    }
+    .res_main_profile_body
+    {
+        margin-top: 17%;
+    }
+    .avatar_res
+    {
+        float: right;
+        width: 60%;
+    }
+
+}
+@media (max-width: 992px) 
+{
+    .avatar_res img
+    {
+        width: 150px;
+    }
+}
